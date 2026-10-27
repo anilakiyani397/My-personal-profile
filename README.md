@@ -26,4 +26,14 @@ create responsive and user-friendly websites.
 
 ## Author
 Anila Rehman
-My personal profile website built using HTML, CSS, and JavaScript.
+My personal profile website built using HTML, CSS, and JavaScript.s
+
+## Live Website
+
+Visit my personal profile website: https://anilakiyani397.github.io/My-personal-profile/
+
+## Features
+
+- Personal introduction
+- Skills and education details
+- Contact information
