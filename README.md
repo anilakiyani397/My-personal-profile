@@ -37,3 +37,8 @@ Visit my personal profile website: https://anilakiyani397.github.io/My-personal-
 - Personal introduction
 - Skills and education details
 - Contact information
+## Technologies Used
+
+- HTML5 for page structure
+- CSS3 for styling and responsive layout
+- JavaScript for interactivity
