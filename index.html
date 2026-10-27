@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal profile of Anila Rehman, a BS IT student interested in web development.">
+    <title>Anila Rehman | Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Anila Rehman</h1>
+        <p>BS IT Student | Aspiring Web Developer</p>
+
+        <nav aria-label="Main navigation">
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- 1. About Me -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! My name is Anila Rehman, and I am a
+                Bachelor of Science in Information Technology
+                (BS IT) student at Virtual University of Pakistan.
+            </p>
+
+            <p>
+                I am passionate about web development and enjoy
+                learning how to create attractive, responsive,
+                and user-friendly websites using HTML, CSS,
+                and JavaScript.
+            </p>
+
+            <p>
+                My goal is to improve my programming skills,
+                build useful web projects, and become a
+                professional web developer.
+            </p>
+        </section>
+
+        <!-- 2. Skills -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>HTML - Learning webpage structure</li>
+                <li>CSS - Learning website styling</li>
+                <li>JavaScript - Learning interactivity</li>
+                <li>Problem Solving</li>
+                <li>Willingness to Learn New Technologies</li>
+            </ul>
+        </section>
+
+        <!-- 3. Education -->
+        <section id="education">
+            <h2>My Education</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institute</th>
+                        <th>Field</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Bachelor of Science (BS)</td>
+                        <td>Virtual University of Pakistan</td>
+                        <td>Information Technology</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 4. Contact Me -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                Thank you for visiting my profile!
+                If you would like to discuss web development
+                or my projects, you can use the form below.
+            </p>
+
+            <form id="contact-form">
+                <label for="name">Your Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Your Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="message">Your Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Write your message here"
+                    required
+                ></textarea>
+
+                <button type="submit">Send Message</button>
+                <p id="form-status" aria-live="polite"></p>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Anila Rehman. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
