@@ -26,3 +26,4 @@ create responsive and user-friendly websites.
 
 ## Author
 Anila Rehman
+My personal profile website built using HTML, CSS, and JavaScript.
